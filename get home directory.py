@@ -1,3 +1,5 @@
 from os.path import expanduser
-home = expanduser("~")
-print(home)
+home_directory = expanduser("~")
+
+
+print(home_directory)
