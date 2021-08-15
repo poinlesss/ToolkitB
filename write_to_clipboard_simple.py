@@ -5,4 +5,4 @@ def write_to_clipboard(output):
 
 
 if __name__ == '__main__':
-    write_to_clipboard("you have written to the clipboard")
+    write_to_clipboard("you have written to the clipboard.")

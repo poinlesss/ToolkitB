@@ -48,4 +48,3 @@ else:
             emergency_abort = True
 
     print('Files exist: %s' % files_exist)
-    
