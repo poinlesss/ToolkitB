@@ -1,3 +1,5 @@
+#wait for files not to exist
+
 import os.path
 import sys
 import time
