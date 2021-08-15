@@ -14,9 +14,7 @@ i = 0
 for i in range(1, n):
     if i == 1:
         arg1 = sys.argv[i]
-
-if arg1:
-    folder = arg1
+        folder = arg1
 
 if i == 0:
     print('No directory defined, because no parameter passed.')
