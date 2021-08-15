@@ -9,6 +9,8 @@ home_directory = expanduser("~")
 n = len(sys.argv)
 
 arg1 = ''
+i = 0
+
 
 for i in range(1, n):
     if i == 1:
@@ -16,10 +18,10 @@ for i in range(1, n):
 
 if arg1:
     folder = arg1
-else:
-    folder = home_directory + '/09fdmsif'
 
-try:
+if i == 0:
+    print('No directory defined, because no parameter passed.')
+else:
     for filename in os.listdir(folder):
         file_path = os.path.join(folder, filename)
         try:
@@ -29,5 +31,3 @@ try:
                 shutil.rmtree(file_path)
         except Exception as e:
             print('Failed to delete %s. Reason: %s' % (file_path, e))
-except Exception as e:
-    print('No argument passed. \n%s' % e)
