@@ -8,4 +8,3 @@ def read_from_clipboard():
 if __name__ == '__main__':
     clipboard_text = read_from_clipboard()
     print(clipboard_text)
-

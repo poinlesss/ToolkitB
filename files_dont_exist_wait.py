@@ -6,7 +6,7 @@ n = len(sys.argv)
 i = 0
 arg1 = ""; arg2 = ""; arg3 = ""; arg4 = ""; arg5 = ""; arg6 = ""; arg7 = ""; arg8 = ""; arg9 = ""; arg10 = "";
 file1 = ""; file2 = ""; file3 = ""; file4 = ""; file5 = ""; file6 = ""; file7 = ""; file8 = ""; file9 = ""; file10 = "";
-time_to_wait = 30
+time_to_wait = 300
 emergency_abort = False
 files_exist = True
 
